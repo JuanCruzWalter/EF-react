@@ -1,0 +1,60 @@
+.btn-count{
+    border:2px solid yellow;
+    background-color: rgb(1, 19, 19);
+    color: aliceblue;
+    border-radius: 5px;
+    align-items: baseline;
+    display: inline-block;
+    
+    height: 2rem;
+    width: 3rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+.btn-count:disabled{
+    color: rgba(240, 248, 255, 0.485);
+    border:2px solid rgba(255, 255, 0, 0.501);
+}
+.btn-count:disabled:hover{
+    border:2px solid rgba(255, 255, 0, 0);
+    background-color: rgba(255, 255, 0, 0.4);
+    color: black;
+    transition: 0.5s;
+    
+}
+.btn-count:hover, .agregar:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.2s;
+}
+.count{
+    display: inline-block;
+    border: none;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    height: 2rem;
+    width: 5rem;
+    color: aliceblue;
+
+}
+.agregar{
+    background-color: rgb(1, 19, 19);
+    border:2px solid yellow;
+    border-radius: 5px;
+    padding: 0 3rem;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 11rem;
+    font-size: larger;
+    color: aliceblue;
+    
+}
+
+.contenedor-count{
+    height: 6rem;
+    width:12rem;
+    display: block;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
