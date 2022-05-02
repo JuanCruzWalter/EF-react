@@ -10,7 +10,7 @@ function App() {
     <div className="App">
         <NavBar/>
         <ItemListContainer saludo="vienvenido a la tienda RKT"/>
-        <ItemCount/>
+        
     </div>
   );
 }
